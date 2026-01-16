@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: webdoc
+  output-dir: docs
 
 website:
   title: "David R. M. Graf"
