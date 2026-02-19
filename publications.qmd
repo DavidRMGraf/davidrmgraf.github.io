@@ -10,6 +10,10 @@ css: custom.css
 
 <!-- <!--Include academic icons or buttons--> 
 <!-- {{< include /files/includes/_academic.qmd >}} -->
+### 2026
+
+Moser, M. K., **_Graf, D. R. M._**, Gandhi, S., & Resch, B. (2026). [Identifying environmental stress factors in urban cycling using multimodal human sensing and machine learning.](https://doi.org/10.1007/s44212-025-00096-6) *Urban Informatics*. \[[pdf](https://https://link.springer.com/content/pdf/10.1007/s44212-025-00096-6.pdf)\]
+
 
 ### 2025
 
@@ -17,7 +21,7 @@ css: custom.css
 
 <center><hr style="width:50%"></center>
 
-Moser, M. K., Schmidt, S., **_Graf, D. R. M._**, Keskin, M., Gandhi, S., Yap, W., Zeile, P., Heinke, M., & Resch, B. (2025). [Understanding the influence of urban characteristics on cyclists’ stress measured through wearable sensors: A quantitative open data approach](https://doi.org/10.1177/23998083251394426). Environment and Planning B: Urban Analytics and City Science, 0(0). \[[pdf](https://journals.sagepub.com/doi/reader/10.1177/23998083251394426)\]
+Moser, M. K., Schmidt, S., **_Graf, D. R. M._**, Keskin, M., Gandhi, S., Yap, W., Zeile, P., Heinke, M., & Resch, B. (2025). [Understanding the influence of urban characteristics on cyclists’ stress measured through wearable sensors: A quantitative open data approach](https://doi.org/10.1177/23998083251394426). Environment and Planning B: Urban Analytics and City Science. \[[pdf](https://journals.sagepub.com/doi/reader/10.1177/23998083251394426)\]
 
 ### 2023
 
