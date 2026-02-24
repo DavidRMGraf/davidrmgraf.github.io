@@ -26,7 +26,7 @@ about:
 ::: {#hero-heading}
 # David R.M. Graf
 ## About me
-My name is David Ruben Max Graf, I am a PhD Researcher at [GEOMAR Helmholtz Centre for Ocean Research Kiel](https://www.geomar.de/en/) and [Kiel University](https://www.uni-kiel.de/en/).
+My name is David Ruben Max Graf, I am a doctoral Researcher at [GEOMAR Helmholtz Centre for Ocean Research Kiel](https://www.geomar.de/en/) and [Kiel University](https://www.uni-kiel.de/en/).
 
 My research focuses on understanding the movement of fish, and how it may change in a changing climate. I use inverse reinforcement learning to learn the reward functions that govern fish behavior, and use those to virtually transport fish into the climate of 2050 or 2100.
 
