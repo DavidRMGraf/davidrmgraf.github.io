@@ -1,10 +1,10 @@
 ---
-image: "files/self.JPG"
+image: "files/david.jpg"
 page-layout: full
 about:
   id: hero-heading
   template: trestles
-  image-width: 90%
+  image-width: 75%
   links:
     - icon: house
       text: Lab
