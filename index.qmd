@@ -1,5 +1,5 @@
 ---
-image: "files/david.jpg"
+image: "files/self.jpg"
 page-layout: full
 about:
   id: hero-heading
