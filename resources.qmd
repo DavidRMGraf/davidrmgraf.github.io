@@ -4,7 +4,7 @@ description-meta: "Resources for various talks, posters, and other contributions
 #page-layout: full
 #back-to-top-navigation: true
 title-block-banner: false
-css: custom.css
+css: styles.css
 ---
 
 
@@ -14,5 +14,31 @@ css: custom.css
   - [Presentation slides](/files/resources/ICYMARE_2026_ApplyingIRLFishMovement_Slides.pdf)
   - [References](/files/resources/ICYMARE_2026_ApplyingIRLFishMovement_Bibliography.pdf)
   
-- A deeper explanation of Maximum Entropy Inverse Reinforcement Learning for the [ETN Symposium 2026 in Copenhagen](https://europeantrackingnetwork.org/en):
-  - []
+
+::: {.sticker-wrap}
+- Poster on learning the reward landscape of diel vertical migration in atlantic cod at the [ETN Symposium 2026 in Copenhagen](https://europeantrackingnetwork.org/en):
+  - [Poster](/files/resources/ETN-Symposium-Copenhagen_2026_Poster.pdf)
+  - [Explanation of Maximum Entropy Inverse Reinforcement Learning](/files/resources/ETN-Symposium-Copenhagen_2026_Maths.pdf)
+
+![](/files/PixelCod.png){.cod-sticker fig-alt="Cod sticker"}
+:::
+
+```{=html}
+<script>
+document.addEventListener("click", function (e) {
+  if (!e.target.closest(".cod-sticker")) return;
+
+  for (let i = 0; i < 4; i++) {
+    const heart = document.createElement("span");
+    heart.className = "pixel-heart";
+    heart.style.left = e.clientX + "px";
+    heart.style.top = e.clientY + "px";
+    heart.style.setProperty("--dx", (Math.random() * 90 - 45) + "px");   // random sideways drift
+    heart.style.setProperty("--s", (1 + Math.random() * 0.8).toFixed(2)); // random final size
+    heart.style.animationDelay = i * 80 + "ms";                           // staggered burst
+    heart.addEventListener("animationend", () => heart.remove());
+    document.body.appendChild(heart);
+  }
+});
+</script>
+```

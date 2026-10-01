@@ -30,7 +30,7 @@ My name is David Ruben Max Graf, I am a doctoral researcher at [GEOMAR Helmholtz
 
 My research focuses on understanding the movement of fish, and how it may change in a changing climate. I use inverse reinforcement learning to learn the reward functions that govern fish behavior, and use those to virtually transport fish into the climate of the future.
 
-I have the privilege of being supervised by [Prof. Sören Christensen](https://www.math.uni-kiel.de/stochastik/de/christensen) in the Mathematical Seminar at CAU Kiel and Dr. Christopher Monk in the [Marine Behavioural Ecology Group](christophermonk.fish).
+I have the privilege of being supervised by [Prof. Sören Christensen](https://www.math.uni-kiel.de/stochastik/de/christensen) in the Mathematical Seminar at CAU Kiel and Dr. Christopher Monk in the [Marine Behavioural Ecology Group](christophermonk.fish). I am a member of [MarDATA - the Helmholtz School for Marine Data Science](https://mardata.de).
 
 ## Experience & Education
 I am a limnologist and data scientist by training, having studied at [BOKU University, Vienna](https://boku.ac.at/en/) (grad. 2022) and [Salzburg University](https://www.plus.ac.at/?lang=en) (grad. 2025).

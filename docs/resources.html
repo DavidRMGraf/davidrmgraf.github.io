@@ -79,7 +79,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="custom.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -156,11 +155,34 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="./files/resources/ICYMARE_2026_ApplyingIRLFishMovement_Slides.pdf">Presentation slides</a></li>
 <li><a href="./files/resources/ICYMARE_2026_ApplyingIRLFishMovement_Bibliography.pdf">References</a></li>
 </ul></li>
-<li>A deeper explanation of Maximum Entropy Inverse Reinforcement Learning for the <a href="https://europeantrackingnetwork.org/en">ETN Symposium 2026 in Copenhagen</a>:
+</ul>
+<div class="sticker-wrap">
 <ul>
-<li>[]</li>
+<li>Poster on learning the reward landscape of diel vertical migration in atlantic cod at the <a href="https://europeantrackingnetwork.org/en">ETN Symposium 2026 in Copenhagen</a>:
+<ul>
+<li><a href="./files/resources/ETN-Symposium-Copenhagen_2026_Poster.pdf">Poster</a></li>
+<li><a href="./files/resources/ETN-Symposium-Copenhagen_2026_Maths.pdf">Explanation of Maximum Entropy Inverse Reinforcement Learning</a></li>
 </ul></li>
 </ul>
+<p><img src="./files/PixelCod.png" class="cod-sticker img-fluid" alt="Cod sticker"></p>
+</div>
+<script>
+document.addEventListener("click", function (e) {
+  if (!e.target.closest(".cod-sticker")) return;
+
+  for (let i = 0; i < 4; i++) {
+    const heart = document.createElement("span");
+    heart.className = "pixel-heart";
+    heart.style.left = e.clientX + "px";
+    heart.style.top = e.clientY + "px";
+    heart.style.setProperty("--dx", (Math.random() * 90 - 45) + "px");   // random sideways drift
+    heart.style.setProperty("--s", (1 + Math.random() * 0.8).toFixed(2)); // random final size
+    heart.style.animationDelay = i * 80 + "ms";                           // staggered burst
+    heart.addEventListener("animationend", () => heart.remove());
+    document.body.appendChild(heart);
+  }
+});
+</script>
 
 
 
