@@ -1,0 +1,18 @@
+---
+title: "Resources"
+description-meta: "Resources for various talks, posters, and other contributions"
+#page-layout: full
+#back-to-top-navigation: true
+title-block-banner: false
+css: custom.css
+---
+
+
+<!-- <!--Include academic icons or buttons--> 
+<!-- {{< include /files/includes/_academic.qmd >}} -->
+- Talk in the session "Artificial Intelligence/Machine Learning for Marine Sciences" at [ICYMARE 2026](https://www.icymare.com/):
+  - [Presentation slides](/files/resources/ICYMARE_2026_ApplyingIRLFishMovement_Slides.pdf)
+  - [References](/files/resources/ICYMARE_2026_ApplyingIRLFishMovement_Bibliography.pdf)
+  
+- A deeper explanation of Maximum Entropy Inverse Reinforcement Learning for the [ETN Symposium 2026 in Copenhagen](https://europeantrackingnetwork.org/en):
+  - []

@@ -2,7 +2,8 @@ project:
   type: website
   output-dir: docs
   resources:
-    - "files/*.pdf"
+    - files/*.pdf
+    - files/resources/*
 
 website:
   title: "David R. M. Graf"
@@ -15,6 +16,8 @@ website:
         href: index.qmd
       - text: Research
         href: publications.qmd
+      - text: Resources
+        href: resources.qmd
       - text: CV
         href: files/CV.pdf
   page-footer:
